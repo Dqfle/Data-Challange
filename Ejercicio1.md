@@ -16,6 +16,6 @@ WHERE b.state = 'CONFIRMED'
 GROUP BY c.country_name, b.city_name, yearmonth
 ORDER BY c.country_name, yearmonth, orders_amount_usd DESC, orders_qty DESC;
 ```
-*Nota: asdadasdas*
+*Nota: Se tomo como ordenes aquellas que fueron CONFIRMADAS*
 ##### Primeras 5 muestras del resultado:
 ![image](https://user-images.githubusercontent.com/81542475/160052737-b1e514f6-eb5a-48c7-8e20-9a9df9d09b64.png)
