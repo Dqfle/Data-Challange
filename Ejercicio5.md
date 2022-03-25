@@ -1,5 +1,5 @@
-# Ejercicio 1
-##### 5.Filtrando las órdenes confirmadas, calcular a nivel usuario el porcentaje de órdenes confirmadas, que tienen entre los “Top 100” restaurantes (según cantidad de órdenes confirmadas)
+# Ejercicio 5
+##### Filtrando las órdenes confirmadas, calcular a nivel usuario el porcentaje de órdenes confirmadas, que tienen entre los “Top 100” restaurantes (según cantidad de órdenes confirmadas)
 ```sql
 WITH mytable AS (SELECT user_id, COUNT(DISTINCT id) as count_id, a.restaurant_id, b.restaurant_id
 				FROM orders_sample a
