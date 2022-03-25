@@ -23,7 +23,7 @@ WHERE state = 'CONFIRMED'
 GROUP BY a.user_id
 ORDER BY conf_orders DESC, ratio_con_orders_top_100 DESC;
 ```
-*Nota: Para una mayor comprensión de las columnas, para conf_orders se tomó todas las ordenes confirmadas para un user_id, y para conf_orders_top_100_rest se tomó todas las ordenes confirmadas para un user_id, solo en el TOP100 de restaurantes*
+*Nota: Para una mayor comprensión de las columnas, para conf_orders se tomó todas las ordenes confirmadas para un user_id, y para conf_orders_top_100_rest se tomó todas las ordenes confirmadas para un user_id, solo en el TOP100 de restaurantes.*
 ##### Primeras 5 muestras del resultado:
 ![image](https://user-images.githubusercontent.com/81542475/160057464-371122bb-392d-43fd-b768-cc39df3fd199.png)
 
