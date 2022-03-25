@@ -20,7 +20,7 @@ AND (CASE WHEN d.amount_march IS NULL THEN 0 ELSE d.amount_march ENd) >100
 GROUP BY c.business_type_name
 ORDER BY restaurant_qty DESC;
 ```
-*Nota: En la columna "Category", se nombro como "No Category" a aquellas que no se le pudo encontrar una categoria en la tabla partnerssample.csv*
+*Nota: En la columna "Category", se nombró como "No Category" a aquellas que no se le pudo encontrar una categoría en la tabla partnerssample.csv*
 ##### Primeras 5 muestras del resultado:
 ![image](https://user-images.githubusercontent.com/81542475/160055022-a82e3843-f15c-4399-a992-69f2fc8ce161.png)
 
